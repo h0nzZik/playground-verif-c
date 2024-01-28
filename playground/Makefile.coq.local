@@ -1,0 +1,2 @@
+theories/phello.v: c/phello.c
+	clightgen -normalize $< -o $@
